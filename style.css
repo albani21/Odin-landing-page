@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+header {
+  background-color: #1f2937;
+  padding: 16px;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 800px;
+}
+
+#logo {
+  font-size: 24px;
+  color: #f9faf8;
+  flex: 1;
+}
+
+#header-links {
+  display: flex;
+  flex: 1;
+  flex-wrap: nowrap;
+  border: white solid 2px;
+  list-style-type: none;
+}
+
+.header-link {  
+  
+  flex: 0 1 auto;
+}
