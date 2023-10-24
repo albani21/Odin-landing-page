@@ -4,32 +4,71 @@
   padding: 0;
   font-family: "Roboto";
 }
-
+/* Header Start */
 header {
+  padding: 10px 15%;
   background-color: #1f2937;
-  padding: 16px;
-  color: #f9faf8;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  gap: 800px;
 }
 
 #logo {
   font-size: 24px;
   color: #f9faf8;
-  flex: 1;
 }
 
 #header-links {
-  display: flex;
-  flex: 1;
-  flex-wrap: nowrap;
-  border: white solid 2px;
+  font-size: 18px;
+  color: #e5e7eb;
   list-style-type: none;
+  display: flex;
+  gap: 30px;
 }
 
-.header-link {  
-  
-  flex: 0 1 auto;
+/* Header End */
+
+/* Main Start */
+
+main {
+  padding: 70px 15%;
+  background-color: #1f2937;
+  display: flex;
 }
+
+.text-container {
+  flex: 1;
+  padding: 0 20px 0 0;
+  height: 215px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.awesome {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+#first-Sign-Up {
+  margin: 10px 0;
+  background-color: #3882f6;
+  width: 100px;
+  height: 30px;
+  border-style: none;
+  border-radius: 7px;
+  color: white;
+}
+
+.image-palceholder {
+  background-color: #e5e7eb7e;
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+/* Main End */
+
